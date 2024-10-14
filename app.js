@@ -11,7 +11,7 @@ import errorMiddleware from './middleware/errorMiddleware.js';
 
 const app = express();
 
-app.use(cors({ origin: 'https://rentzfront.onrender.com' }));
+app.use(cors({ origin: 'https://arellanofront.onrender.com' }));
 
 app.use(express.static('public'));
 
